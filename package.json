@@ -1,0 +1,23 @@
+{
+  "name": "exec-shell",
+  "version": "0.0.1",
+  "description": "Execute large blocks of shell",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha "
+  },
+  "keywords": [
+    "shell",
+    "exec",
+    "sh"
+  ],
+  "author": "Houfeng",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "real-utils": "0.0.1",
+    "stp": "0.0.2"
+  }
+}
