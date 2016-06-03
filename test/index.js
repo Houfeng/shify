@@ -3,15 +3,14 @@ var exec = require('../');
 var io = exec(function () {
   /*
   echo 'my name is ${name}'
-  exit 187
   */
 }, { params: { name: 'houfeng' } });
 
 io.on('error', function (err) {
-  console.error('error', err);
+  //console.error('error', err);
 });
 io.on('success', function () {
-  console.log('success');
+  //console.log('success');
 });
 io.on('close', function (code) {
   console.info('exit', code);
