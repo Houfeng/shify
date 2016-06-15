@@ -1,6 +1,6 @@
 {
-  "name": "exec-shell",
-  "version": "0.0.3",
+  "name": "shify",
+  "version": "0.0.5",
   "description": "Execute large blocks of shell",
   "main": "./lib/index.js",
   "scripts": {
@@ -9,9 +9,16 @@
   "keywords": [
     "shell",
     "exec",
-    "sh"
+    "sh",
+    "cmd",
+    "bat",
+    "shify"
   ],
   "author": "Houfeng",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Houfeng/shify"
+  },
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.5.3"

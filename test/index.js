@@ -1,8 +1,9 @@
-var exec = require('../');
+var shify = require('../');
 
-var io = exec(function () {
+var io = shify(function () {
   /*
   echo 'my name is ${name}'
+  echo $PWD
   */
 }, { params: { name: 'houfeng' } });
 
