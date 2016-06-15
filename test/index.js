@@ -4,6 +4,7 @@ var io = shify(function () {
   /*
   echo 'my name is ${name}'
   echo $PWD
+  ls
   */
 }, { params: { name: 'houfeng' } });
 
