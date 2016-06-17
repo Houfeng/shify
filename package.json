@@ -1,6 +1,6 @@
 {
   "name": "shify",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Execute large blocks of shell",
   "main": "./lib/index.js",
   "scripts": {
