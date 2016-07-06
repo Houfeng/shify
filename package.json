@@ -1,6 +1,6 @@
 {
   "name": "shify",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Execute large blocks of shell",
   "main": "./lib/index.js",
   "scripts": {
@@ -24,8 +24,10 @@
     "mocha": "^2.5.3"
   },
   "dependencies": {
+    "md5": "^2.1.0",
     "pty.js": "^0.3.0",
     "real-utils": "0.0.1",
+    "smache": "^1.0.0",
     "stp": "0.0.2"
   }
 }
