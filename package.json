@@ -1,6 +1,6 @@
 {
   "name": "shify",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Execute large blocks of shell",
   "main": "./lib/index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "ntils": "^2.1.2",
+    "pty.js": "^0.3.1",
     "stp": "^0.0.4"
   }
 }
