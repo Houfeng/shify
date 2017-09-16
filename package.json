@@ -1,6 +1,6 @@
 {
   "name": "shify",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "description": "Execute large blocks of shell",
   "main": "./lib/index.js",
   "scripts": {
@@ -20,14 +20,12 @@
     "url": "https://github.com/Houfeng/shify"
   },
   "license": "MIT",
-  "devDependencies": {
-    "mocha": "^2.5.3"
-  },
   "dependencies": {
+    "execa": "^0.8.0",
     "ntils": "^2.1.2",
     "stp": "^0.0.4"
   },
   "optionalDependencies": {
-    "pty.js": "^0.3.0"
+    "pty.js": "^0.3.1"
   }
 }
