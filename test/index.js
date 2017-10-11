@@ -14,7 +14,7 @@ io.on('success', function () {
 });
 
 io.stdout.pipe(process.stdout);
-//io.stderr.pipe(process.stderr);
+io.stderr.pipe(process.stderr);
 
 // io.stdout.on('data', function (data) {
 //   console.log(data.toString());
