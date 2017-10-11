@@ -23,8 +23,5 @@
   "dependencies": {
     "ntils": "^2.1.2",
     "stp": "^0.0.4"
-  },
-  "optionalDependencies": {
-    "pty.js": "^0.3.1"
   }
 }
